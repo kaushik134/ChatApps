@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "public": "cd public && npm start",
+    "server": "cd server && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run public\""
+  },
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
